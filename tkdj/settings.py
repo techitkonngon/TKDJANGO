@@ -25,7 +25,7 @@ SECRET_KEY = 'e4(@hft^^=1l439nheh=^^uo$sg8oao&5w(jq9npz&kvqw=u&m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tkdjango61010389.herokuapp.com']
+ALLOWED_HOSTS = ['tkdjango61010389.herokuapp.com','localhost','127.0.0.1']
 
 
 # Application definition
