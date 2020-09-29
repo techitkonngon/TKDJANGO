@@ -1,0 +1,141 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+    <title>Techit 61010389</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<style>
+    body {margin-top: 0px}
+    body {margin-right: 10px;}
+    body {margin-left: 10px;}
+    img {border-radius: 8px;}
+    h2 {text-align: center;}
+    body {
+  background-color: black;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+    div.text1{
+        color: white;
+    }
+    
+    div.container {
+      text-align: center;
+      padding: 1000px 2000px;
+    }
+    div.polaroid {
+
+    }
+    .container1 {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+    </style>
+<body style="background-color:rgb(36, 35, 35);" >
+
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#" style="color: white;">TALOKTOKTEK</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#" style="color:antiquewhite;">Profile</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> <3 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">T</a></li>
+                <li><a href="#">E</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">H</a></li>
+                <li><a href="#">I</a></li>
+                <li><a href="#">T</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> -_- <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">6</a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">0</a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">0</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">8</a></li>
+                  <li><a href="#">9</a></li>
+                </ul>
+              </li>
+            <!-- <li><a href="#">-_-</a></li> -->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> TK</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Cloud</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <div  style= "margin-left: 550px;">
+        <img src={% static "img/02.jpg" %} " width="400" height="590" >
+        </div>
+      <div class = "glow" style="color: white;" style="left: 700px;">
+        <h2>Techit Konngon 61010389 [TonKra]</h2>
+        </div>
+        <div class="container1">
+            <img src={% static "img/03.jpg" %} alt="Nature" style="width:100%;">
+            <div class="text-block">
+              <h4>นครนายก</h4>
+              <p>เขื่อนขุนด่านปราการชล</p>
+            </div>
+          </div>
+
+        <!-- <img src= {% static "img/01.jpg" %}>
+        <h1 class="base">base</h1>
+         -->
+    
+    <!-- <img src= {% static "img/01.jpg" %}>     -->
+
+    {% block conntent %}
+
+    {% endblock%}
+
+
+</body>
+</html>
+
